@@ -8,13 +8,13 @@ let package = Package(
     products: [
         .library(
             name: "PluggableAppDelegate",
-            targets: ["PluggableAppDelegate"]),
+            targets: ["PluggableAppDelegate"]
+        ),
     ],
-    dependencies: [ ],
     targets: [
         .target(
             name: "PluggableAppDelegate",
-            dependencies: [],
-            path: "Sources")
+            path: "Sources"
+        )
     ]
 )
